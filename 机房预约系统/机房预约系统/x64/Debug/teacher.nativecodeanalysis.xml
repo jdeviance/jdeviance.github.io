@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\poroject\机房预约系统\机房预约系统\</FILEPATH>
+      <FILENAME>teacher.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Teacher::m_Emp。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Teacher::{ctor}</FUNCTION>
+    <DECORATED>??0Teacher@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Teacher::m_Emp</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

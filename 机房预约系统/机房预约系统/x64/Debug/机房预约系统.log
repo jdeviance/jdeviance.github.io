@@ -1,0 +1,16 @@
+﻿  manager.cpp
+  orderFile.cpp
+  student.cpp
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(24,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(34,22): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(43,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(52,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(60,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\poroject\机房预约系统\机房预约系统\orderFile.cpp(69,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  teacher.cpp
+  机房预约系统.cpp
+  正在运行 C/C++ 代码分析...
+  正在生成代码...
+  机房预约系统.vcxproj -> E:\poroject\机房预约系统\x64\Debug\机房预约系统.exe
+E:\poroject\机房预约系统\机房预约系统\student.cpp(4): warning C26495: 未初始化变量 Student::m_Id。始终初始化成员变量(type.6)。
+E:\poroject\机房预约系统\机房预约系统\teacher.cpp(4): warning C26495: 未初始化变量 Teacher::m_Emp。始终初始化成员变量(type.6)。

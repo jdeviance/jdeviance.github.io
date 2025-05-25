@@ -1,0 +1,109 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Student::m_Id。始终初始化成员变量(type.6)。"
+          },
+          "analysisTarget": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/student.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/poroject/机房预约系统/机房预约系统/student.cpp"
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Student::{ctor}",
+                  "decoratedName": "??0Student@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Student::m_Id"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34809.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/student.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "66d362b3de8c9199c3afc0ea90e47707e734f1df872c38f07a74cf6db3934358"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/student.h"
+          },
+          "hashes": {
+            "sha-256": "e28c6d1df13cc79d97ac42293977881b810cb52b668627245dac6076e68dfcb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/identity.h"
+          },
+          "hashes": {
+            "sha-256": "15f5320b59c70a4d2bf7798f5fa2d386e9e69f069957ab1ce4b67471d8b33d78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/computerroom.h"
+          },
+          "hashes": {
+            "sha-256": "423fb54192ae513439e77578fb25fc673d77a0cd28a32a671a439c2ef759785f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/globalfile.h"
+          },
+          "hashes": {
+            "sha-256": "8c411339cc8e9438ccfdc411cf50a9323e6e456a0d89d419b05bfd4028e4fb3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/poroject/机房预约系统/机房预约系统/orderfile.h"
+          },
+          "hashes": {
+            "sha-256": "d9e593a73a4f7602a23ced82dc2c5fc44bd84bbf592696282e8ff6e31295fbba"
+          }
+        }
+      ]
+    }
+  ]
+}

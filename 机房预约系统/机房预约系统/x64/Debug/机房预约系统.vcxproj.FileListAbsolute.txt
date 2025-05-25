@@ -1,0 +1,2 @@
+E:\poroject\机房预约系统\x64\Debug\机房预约系统.exe.lastcodeanalysissucceeded
+E:\poroject\机房预约系统\机房预约系统\x64\Debug\NativeCodeAnalysis.read.1.tlog
